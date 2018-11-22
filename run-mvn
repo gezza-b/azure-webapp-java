@@ -1,0 +1,16 @@
+mvn clean package azure-webapp:deploy -X
+
+az login
+az ad sp create-for-rbac --name "tfTomcat001" --password "lvf5he61XfpzfKEl5g8Rr1f6nw9AftkKKgfXJF7ZC2aJ3CN6iTC2drZ8cT8k"
+
+
+---
+https://docs.microsoft.com/en-us/java/azure/spring-framework/deploy-spring-boot-java-app-from-container-registry-using-maven-plugin?view=azure-java-stable
+---
+{
+  "appId": "467a3b5a-e489-4610-95be-6d4bf9fd97bf",
+  "displayName": "tfTomcat001",
+  "name": "http://tfTomcat001",
+  "password": "lvf5he61XfpzfKEl5g8Rr1f6nw9AftkKKgfXJF7ZC2aJ3CN6iTC2drZ8cT8k",
+  "tenant": "0aa2ecc4-7253-40a6-8b01-0e9967db87b3"
+}

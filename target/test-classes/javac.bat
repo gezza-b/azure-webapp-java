@@ -1,0 +1,1 @@
+cmd.exe /X /C ""C:\Program Files\Java\jdk1.8.0_192\jre\..\bin\javac.exe" "@C:/Users/Gerald Bachlmayr/Dev/TerraformWebapp-Java/target/test-classes/org.codehaus.plexus.compiler.javac.JavacCompiler833525688403874937arguments""
